@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Service!</h1>
+        <p>Discover how we can help you achieve your goals.</p>
+        <a href="#signup" class="cta-button">Get Started</a>
+        <div id="signup" style="margin-top: 50px;">
+            <h2>Sign Up Now</h2>
+            <form action="submit_form.php" method="post">
+                <input type="email" name="email" placeholder="Enter your email" required style="padding: 10px; width: 80%; max-width: 300px;">
+                <button type="submit" class="cta-button" style="margin-top: 10px;">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </div>
+</body>
+</html>
